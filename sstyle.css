@@ -5,12 +5,12 @@ body {
     height: 100vh;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    background: #222;
+    background: rgb(58, 58, 58);
     font-size: 120%;
   }
   
   .card {
-    background: #000000d0;
+    background: rgba(14, 13, 13, 0.788);
     color: white;
     padding: 2em;
     border-radius: 30px;
@@ -21,7 +21,7 @@ body {
   
   .search {
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: center;
   }
   
@@ -32,7 +32,7 @@ body {
     height: 44px;
     width: 44px;
     outline: none;
-    background: #7c7c7c2b;
+    background: #0202022b;
     color: white;
     cursor: pointer;
     transition: 0.2s ease-in-out;
@@ -43,15 +43,15 @@ body {
     outline: none;
     padding: 0.4em 1em;
     border-radius: 24px;
-    background: #7c7c7c2b;
-    color: white;
-    font-family: inherit;
+    background: #0000008f;
+    color: rgb(255, 255, 255);
+    font-family: inherit; 
     font-size: 105%;
     width: calc(100% - 100px);
   }
   
   button:hover {
-    background: #7c7c7c6b;
+    background: #0000008f;
   }
   
   h1.temp {
