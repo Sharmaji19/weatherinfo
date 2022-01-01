@@ -1,4 +1,4 @@
-// Assume the country_code is a ISO 3166-1 alpha-2 string (eg: "US")
+// Assume the country_code is a ISO 3166-1 alpha-2 string (eg: "US").
 // copied from https://gist.github.com/theory-of-soul/220dfe7a7f383325510be31ffb0d362e
 function country2emoji(country_code) {
 	var OFFSET = 127397;
